@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            name="Projects View"
+            id="com.github.fabrizioiannetti.projectsview">
+      </category>
+      <view
+            name="Projects"
+            icon="icons/sample.gif"
+            category="com.github.fabrizioiannetti.projectsview"
+            class="com.github.fabrizioiannetti.projectsview.views.ProjectsView"
+            id="com.github.fabrizioiannetti.projectsview.views.ProjectsView">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.help.contexts">
+      <contexts
+            file="contexts.xml">
+      </contexts>
+   </extension>
+
+</plugin>
