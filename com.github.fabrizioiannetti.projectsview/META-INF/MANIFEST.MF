@@ -4,9 +4,15 @@ Bundle-Name: Projectsview
 Bundle-SymbolicName: com.github.fabrizioiannetti.projectsview;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: com.github.fabrizioiannetti.projectsview.Activator
-Bundle-Vendor: GITHUB
+Bundle-Vendor: Fabrizio Iannetti
 Require-Bundle: org.eclipse.ui,
- org.eclipse.core.runtime
+ org.eclipse.core.runtime,
+ org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ org.eclipse.ui.navigator,
+ org.eclipse.ui.navigator.resources
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.eclipse.ui.ide,
+ org.eclipse.ui.navigator
 Bundle-ActivationPolicy: lazy
-Import-Package: org.eclipse.ui.navigator
